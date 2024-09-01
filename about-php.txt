@@ -1,35 +1,59 @@
 OOP
 
 - Menyusun semua kode program dan struktur data sebagai objek
+Contoh: Dalam PHP, kita bisa mendefinisikan kelas dan membuat objek dari kelas tersebut. Misalnya, kita bisa mendefinisikan kelas Car dan membuat objek Car seperti pada file class-objects.php.
 - Objek adalah unit dasar dari program
+Contoh: Objek dalam PHP bisa berupa instance dari kelas yang menyimpan data dan metode. Misalnya, $car1 adalah objek dari kelas Car.
 - Objek menyimpan data dan perilaku
+Contoh: Objek dalam PHP memiliki properti untuk menyimpan data dan metode untuk mendefinisikan perilaku. Misalnya, objek Car memiliki properti make, model, dan year, serta metode getCarInfo.
 - Objek bisa saing berinteraksi
+Contoh: Objek dalam PHP bisa saling berinteraksi dengan memanggil metode satu sama lain. Misalnya, kita bisa membuat objek Car lain dan memanggil metode getCarInfo untuk mendapatkan informasi mobil.
 - Java, Ruby, Python, C++, JavaScript, (PHP5-> ke atas)
+Contoh: PHP5 ke atas mendukung pemrograman berorientasi objek seperti bahasa pemrograman lainnya. Misalnya, kita bisa menggunakan konsep OOP dalam PHP seperti yang kita lakukan dalam Java atau Python.
 
 Kelebihan OOP
 - Representasikan dunia nyata
+Contoh: OOP memungkinkan kita untuk membuat model yang merepresentasikan objek dunia nyata. Misalnya, kita bisa membuat kelas Car untuk merepresentasikan mobil dalam program.
 - Enkapsuasi dan Abstraksi data
+Contoh: OOP memungkinkan kita untuk menyembunyikan detail implementasi dan hanya menampilkan antarmuka yang diperlukan. Misalnya, kita bisa menggunakan metode getCarInfo untuk mendapatkan informasi mobil tanpa perlu mengetahui bagaimana data tersebut disimpan.
 - Reusibiity dapat menggunakan ulang dengan program yang akan dibuat
+Contoh: OOP memungkinkan kita untuk menggunakan kembali kode dengan membuat kelas yang dapat digunakan di berbagai program. Misalnya, kita bisa menggunakan kelas Car di program lain tanpa perlu menulis ulang kode.
 - Skabilitas dan Ekstensibilitas
+Contoh: OOP memungkinkan kita untuk mengembangkan program dengan mudah dan menambahkan fitur baru tanpa mengubah kode yang ada. Misalnya, kita bisa menambahkan properti atau metode baru ke kelas Car tanpa mempengaruhi kode yang sudah ada.
 - Kemudahan pengelolaan
+Contoh: OOP memudahkan pengelolaan kode dengan memisahkan logika ke dalam kelas dan objek yang terpisah. Misalnya, kita bisa memisahkan logika mobil ke dalam kelas Car dan logika lain ke dalam kelas yang berbeda.
 - Kolaborasi
+Contoh: OOP memungkinkan tim pengembang untuk bekerja pada bagian yang berbeda dari program secara bersamaan. Misalnya, satu pengembang bisa bekerja pada kelas Car sementara pengembang lain bekerja pada kelas lain.
 - digunakan oleh framework
+Contoh: Banyak framework PHP seperti Laravel dan Symfony menggunakan OOP untuk mengatur kode. Misalnya, kita bisa menggunakan kelas dan objek dalam framework tersebut untuk mengembangkan aplikasi.
 
 Basic
 - Class dan Object
+Contoh: Kelas adalah cetak biru untuk membuat objek, dan objek adalah instance dari kelas. Misalnya, kelas Car adalah cetak biru dan $car1 adalah objek dari kelas Car.
 - Property dan Method
+Contoh: Properti adalah variabel yang menyimpan data, dan metode adalah fungsi yang mendefinisikan perilaku. Misalnya, properti make, model, dan year menyimpan data mobil, dan metode getCarInfo mendefinisikan perilaku untuk mendapatkan informasi mobil.
 - Constructor
+Contoh: Konstruktor adalah metode khusus yang dipanggil saat objek dibuat untuk menginisialisasi properti. Misalnya, konstruktor __construct dalam kelas Car menginisialisasi properti make, model, dan year.
 - Inheritance
+Contoh: Pewarisan memungkinkan kita untuk membuat kelas baru yang mewarisi properti dan metode dari kelas yang ada. Misalnya, kita bisa membuat kelas ElectricCar yang mewarisi dari kelas Car.
 - Visibiity atau access Modifier
+Contoh: Visibilitas menentukan aksesibilitas properti dan metode, seperti public, private, dan protected. Misalnya, properti make, model, dan year dalam kelas Car memiliki visibilitas public.
 - Setter dan Getter
+Contoh: Setter dan getter adalah metode untuk mengatur dan mendapatkan nilai properti. Misalnya, kita bisa membuat metode setMake dan getMake untuk mengatur dan mendapatkan nilai properti make.
 - Static Method
+Contoh: Metode statis adalah metode yang dapat dipanggil tanpa membuat objek dari kelas. Misalnya, kita bisa membuat metode statis dalam kelas Car yang dapat dipanggil tanpa membuat objek Car.
 
 Advanced 
 - Abstract dan Interface
+Contoh: Kelas abstrak dan antarmuka digunakan untuk mendefinisikan kontrak yang harus diikuti oleh kelas turunan. Misalnya, kita bisa membuat kelas abstrak Vehicle dan antarmuka Drivable yang harus diikuti oleh kelas Car.
 - Interceptor
+Contoh: Interceptor adalah metode yang digunakan untuk mengintersepsi panggilan metode atau akses properti. Misalnya, kita bisa menggunakan interceptor untuk memvalidasi data sebelum mengatur nilai properti.
 - Object cloning
+Contoh: Kloning objek memungkinkan kita untuk membuat salinan dari objek yang ada. Misalnya, kita bisa mengkloning objek Car untuk membuat salinan dari objek tersebut.
 - Callbacks & Closures
+Contoh: Callback adalah fungsi yang dipanggil sebagai argumen, dan closure adalah fungsi anonim yang dapat mengakses variabel di luar lingkupnya. Misalnya, kita bisa menggunakan callback dan closure dalam metode kelas untuk memproses data.
 - Namespaces & Autooading
+Contoh: Namespace digunakan untuk mengatur kode ke dalam ruang nama yang berbeda, dan autoloading memungkinkan pemuatan otomatis kelas yang diperlukan. Misalnya, kita bisa menggunakan namespace untuk mengatur kelas Car ke dalam ruang nama yang berbeda dan menggunakan autoloading untuk memuat kelas tersebut secara otomatis.
 dan lain - lain
 
 
